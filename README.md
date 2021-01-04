@@ -1,5 +1,6 @@
 # Dependencies
-This light-weight project is build with Vue 3.0 and uses Vue, Boostra and date-fns.
+This is light-weight and barebones project is build with [Vue 3.0](https://vuejs.org/), [Boostrap](https://getbootstrap.com/) and [date-fns](https://date-fns.org/).
+The stateful behaviour of it's store implementation makes it easy to maintain state between different Vue instances.
 
 # Setup
 ```
