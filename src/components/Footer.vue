@@ -13,7 +13,8 @@
     <div class="address">
       <h4>Address</h4>
       <ul>
-        <li><img src="../assets/location.png" /> Houtlaan 4, 6525 XZ</li>
+        <li><img src="../assets/location.png" /> Houtlaan 4</li>
+        <li class="right">6525 XZ</li>
       </ul>
     </div>
   </div>
@@ -42,23 +43,27 @@ $sm-display: 48rem;
   .logo-brand {
     font-size: 3rem;
   }
+
+  ul {
+    list-style: none;
+    font-size: 1rem;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    font-family: "Open Sans", "sans-serif";
+  }
+
+  li.right {
+    float: right;
+  }
 }
 
-ul {
-  list-style: none;
-  font-size: 1rem;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-  -webkit-padding-start: 0;
-  font-family: "Open Sans", "sans-serif";
-}
-
-// Responsive
 @media (max-width: $sm-display) {
   .footer {
     padding: 1rem 2rem 1rem 2rem;
+    font-size: 0.7rem;
 
     .logo-brand {
       font-size: 2.4rem;
