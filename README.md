@@ -1,8 +1,8 @@
-# WANTIT
-WANTIT is light-weight and barebones project build upon [Vue 3.0](https://vuejs.org/), [Boostrap](https://getbootstrap.com/) and [date-fns](https://date-fns.org/).
+# WantIT
+WantIT is light-weight and barebones project build upon [Vue 3.0](https://vuejs.org/), [Boostrap](https://getbootstrap.com/) and [date-fns](https://date-fns.org/).
 The stateful behaviour of it's store implementation makes it easy to maintain state, e.g. job items, between different Vue instances.
 
-# How to:
+# Setup:
 ```
 # install dependencies
 npm install
