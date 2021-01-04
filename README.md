@@ -12,4 +12,7 @@ npm run serve
 
 # build for production with minification
 npm run build
+
+# to run build
+node app.js
 ```
